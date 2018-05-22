@@ -1,0 +1,230 @@
+// HTML STYLES
+body,html {
+  margin:0;padding:0;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+body {
+  background: #c7c7c7;
+}
+header {
+  position: fixed;
+  z-index: 200;
+  text-align: center;
+}
+
+// GENERAL WIDTH STYLES
+.one-whole {
+  width: 100%;
+}
+.one-half {
+  width: 50%;
+}
+.one-third {
+  width: 33.333333%
+}
+.one-quarter {
+  width: 25%;
+}
+.one-fifth {
+  width: 20%;
+}
+
+// CONTAINER STYLES
+.page-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: center;
+}
+.page-container > * {
+  padding: 0 10px 0 10px;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+}
+.index-container {
+  margin-top: 70px;
+}
+
+// HEADER STYLES
+.site-header {
+  background: #000;
+  height: 70px;
+}
+.header-icon {
+  padding: 10px;
+  float: left;
+}
+.navbar-items {
+  color: #fff;
+  display: inline-block;
+  margin: 18px;
+  font-family: Oswald;
+  font-size: 20px;
+  -webkit-transition: font-size.5s; /* Safari */
+  transition: font-size.5s;
+}
+.navbar-items:hover {
+  font-size: 18px;
+  color: #c7c7c7;
+}
+.navbar-code {
+  color: #fff;
+  float: left;
+  font-size: 40px;
+  padding: 10px;
+}
+.navbar-bracket {
+  color: #fff;
+  font-family: Oswald;
+  font-style: normal;
+  padding: 0 10px 0 10px;
+  font-size: 37px;
+  font-weight: 900;
+}
+header.scroll {
+  background-color: #A1572F;
+  color: #eef;
+}
+
+// INDEX STYLES
+.wrapper {
+  /* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+  height: 100vh;
+  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+  overflow-x: hidden;
+  /* Enable scrolling on the page. */
+  overflow-y: auto;
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  perspective: 2px;
+}
+.section {
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 600px;
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+/* The styling for the static div. */
+.static {
+  background: #36787c;
+}
+.parallax-quote {
+  margin-bottom: -14rem;
+}
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.bg1::after {
+  background-image: url('/images/frontiers-background-full.jpg');
+}
+.index-banner {
+  background-image: url("/images/frontiers-background-full.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills-row {
+  margin-bottom: 4%;
+}
+.skills-icon {
+  font-size: 55px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.skill-container {
+  margin-left: 6%;
+  text-align: center;
+}
+.progress-bar {
+  background-color: #2e3f4b;
+}
+.skills-section {
+  background-color: #36787c;
+  text-align: center;
+}
+.skills-header {
+  font-family: inherit;
+  color: #fff;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-size: 45px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.skills-text {
+  font-size: 45px;
+  font-family: Oswald;
+  font-weight: normal;
+}
+.experience-section {
+  background: #fff;
+}
+.experience-header, .experience-quote {
+  font-family: inherit;
+  color: #525252;
+  font-size: 45px;
+  letter-spacing: 4px;
+  margin-top: 3%;
+}
+.experience-subtext {
+  font-family: inherit;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 600;
+}
+.experience-button {
+  margin-top: 3%;
+  background: #36787c;
+  color: #fff;
+  font-family: inherit;
+  font-size: 25px;
+  transition: ease .5s;
+}
+.experience-button:hover {
+  background: #50cad2;
+}
+.experience-quote {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+// FOOTER STYLES
+.site-footer {
+  color: #fff;
+  font-family: Oswald;
+  background: #000;
+}

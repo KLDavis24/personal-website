@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class PersonalController extends Controller
 {
-    //
+    public function index()
+    {
+    	return view('pages.index');
+    }
 }
