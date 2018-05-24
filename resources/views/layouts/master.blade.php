@@ -6,13 +6,20 @@
 </head>
 
 <body>
-    <div class="page-container">
-        @include('partials.header')
+
+<div class="page-container">
+
+    @include('partials.header')
+
+    <main class="wrapper">
 
         @yield('content')
 
         @include('partials.footer')
-    </div>
+
+    </main>
+</div>
+
 </body>
 
 </html>

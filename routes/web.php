@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'PersonalController@index');
+Route::get('contact', 'PersonalController@contact');
+Route::get('send-email', 'PersonalController@processForm')->name('send-contact');

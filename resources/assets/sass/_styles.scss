@@ -214,7 +214,7 @@ header.scroll {
   font-size: 25px;
   transition: ease .5s;
 }
-.experience-button:hover {
+.experience-button:hover, .contact-submit:hover {
   background: #50cad2;
 }
 .experience-quote {
@@ -222,9 +222,78 @@ header.scroll {
   letter-spacing: 1px;
 }
 
+// CONTACT STYLES
+.contact-page-container {
+  background: #fff;
+  padding-top: 5%;
+}
+.contact-form-container {
+  background: #fff;
+  padding-top: 5%;
+}
+.contact-form {
+  margin: 0 auto;
+  width: 75%;
+}
+.contact-submit {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background: #36787c;
+  color: #fff;
+  font-family: inherit;
+  font-size: 20px;
+  transition: ease .5s;
+}
+.contact-form-row {
+  margin-bottom: 3%;
+}
+.input-margin {
+  padding-right: 10px;
+}
+.contact-info-container {
+  padding-left: 10%;
+  padding-top: 5%;
+  background: #fff;
+}
+.contact-info-list {
+  padding-left: 30%;
+  text-align: left;
+}
+.has-error {
+  font-size: 10px;
+  color: red;
+}
+.alert-container {
+  padding-right: 6.3%;
+}
+.alert-success {
+  float: right;
+  width: 40.2%;
+}
+.return-home {
+  font-family: Oswald;
+  color: #36787c;
+  transition: ease .5s;
+}
+.return-home-container {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.return-home:hover, .footer-links:hover {
+  color: #50cad2;
+}
+
 // FOOTER STYLES
 .site-footer {
   color: #fff;
   font-family: Oswald;
   background: #000;
+}
+.footer-content {
+  padding-top: 8px;
+}
+.footer-links {
+  color: #fff;
+  transition: ease .5s;
 }
