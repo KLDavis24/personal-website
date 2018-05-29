@@ -13,4 +13,7 @@
 
 Route::get('/', 'PersonalController@index');
 Route::get('contact', 'PersonalController@contact');
+Route::get('about', 'PersonalController@about');
+Route::get('portfolio', 'PersonalController@portfolio');
+Route::get('privacy-policy', 'PersonalController@privacy');
 Route::get('send-email', 'PersonalController@processForm')->name('send-contact');

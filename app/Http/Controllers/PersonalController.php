@@ -18,6 +18,21 @@ class PersonalController extends Controller
     	return view('pages.contact');
     }
 
+    public function about()
+    {
+    	return view('pages.about');
+    }
+
+    public function portfolio()
+    {
+    	return view('pages.portfolio');
+    }
+
+    public function privacy()
+    {
+    	return view('pages.privacy-policy');
+    }
+
     public function processForm(ContactRequest $request)
     {
     	$this->sendEmail($request);

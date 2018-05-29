@@ -5,9 +5,8 @@
             <i class="fa fa-code navbar-code" aria-hidden="true"></i>
         </div>
         <div class="one-third float-left">
-            <a href="#" class="navbar-items">About Me</a>
-            <a href="#" class="navbar-items">Portfolio</a>
-            <a href="#" class="navbar-items">Fun Things</a>
+            <a href="/about" class="navbar-items">About Me</a>
+            <a href="/portfolio" class="navbar-items">Portfolio</a>
             <a href="/contact" class="navbar-items">Contact Me</a>
         </div>
         <div class="one-third float-left">

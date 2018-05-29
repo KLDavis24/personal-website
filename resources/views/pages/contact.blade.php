@@ -10,6 +10,7 @@
                 <p><u>My Info</u></p>
                 <p>Phone: (708) 250-8606</p>
                 <p>Email: kldavis.244@gmail.com</p>
+                <a class="links" target="_blank" href="https://www.linkedin.com/in/kevin-davis-6345a710a/"><p>LinkedIn Profile</p></a>
                 <p>Please feel free to contact me via email or phone. Alternatively, you can also fill out the form on this page to get in touch!</p>
             </div>
         </div>

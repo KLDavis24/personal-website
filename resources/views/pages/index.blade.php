@@ -96,7 +96,7 @@
     <section class="one-whole float-left experience-section text-center">
         <p class="experience-header">Full-Stack Developer</p>
         <p class="experience-subtext">With over 2 years of experience in a plethora of languages and frameworks, I am fully accustomed to the Agile and Object-oriented methodologies.</p>
-        <button class="btn experience-button">My Background</button>
+        <a href="/about"><button class="btn experience-button">My Background</button></a>
         <p class="experience-quote">"I'm just a simple man trying to make my way in the universe."<br><strong>- Jango Fett</strong></p>
     </section>
 @stop
