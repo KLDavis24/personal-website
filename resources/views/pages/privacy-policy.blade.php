@@ -137,8 +137,36 @@
     </article>
 </div>
 
-@include('partials.footer')
+<script type="text/javascript">
+    StarWars = (function() {
+        function StarWars(args) {
+            this.el = $(args.el);
+            this.audio = this.el.find('audio').get(0);
+            this.start = this.el.find('.start');
+            this.animation = this.el.find('.animation');
+            this.audio.play();
+            this.el.append(this.animation);
 
-@section('scripts')
-    <script src="{{ URL::asset('js/starwars.js') }}"></script>
-@stop
+            this.start.bind('click', $.proxy(function() {
+                this.start.hide();
+                this.audio.play();
+                this.el.append(this.animation);
+            }, this));
+        }
+
+        StarWars.prototype.reset = function() {
+            this.start.show();
+            this.cloned = this.animation.clone(true);
+            this.animation.remove();
+            this.animation = this.cloned;
+        };
+
+        return StarWars;
+    })();
+
+    new StarWars({
+        el : '.starwars'
+    });
+</script>
+
+@include('partials.footer')
