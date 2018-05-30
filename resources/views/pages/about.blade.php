@@ -2,15 +2,22 @@
 
 @section('content')
 
+    <section class="section2 parallax bg2">
+        <div class="one-whole">
+            <img class="about-picture" src="/images/kldavisphoto.jpeg" />
+            <h1 class="parallax-quote2">"Hello there..."<br><strong><i class="fas fa-minus hyphen"></i> Obi-Wan Kenobi</strong></h1>
+        </div>
+    </section>
+
     <div class="about-section-container one-whole">
 
-        <div class="one-whole text-center about-header">
-            <h1 class="header-quote">"Hello there..."<br><span class="header-claim">- Obi-Wan Kenobi</span></h1>
-        </div>
+        {{--<div class="one-whole text-center about-header">--}}
+            {{--<h1 class="header-quote">"Hello there..."<br><span class="header-claim">- Obi-Wan Kenobi</span></h1>--}}
+        {{--</div>--}}
 
-        <div class="one-whole text-center about-picture-container">
-            <img class="about-picture" src="/images/kldavisphoto.jpeg" />
-        </div>
+        {{--<div class="one-whole text-center about-picture-container">--}}
+            {{--<img class="about-picture" src="/images/kldavisphoto.jpeg" />--}}
+        {{--</div>--}}
 
         <div class="one-whole about-details">
             <p class="about-paragraph">
@@ -46,9 +53,7 @@
             <ul class="projects-list">
                 <li class="single-project"><i class="fab fa-mandalorian"> - </i>
                     Written in Laravel, a promotional product web application for a specific group of customers to redeem a unique code, attached to their email address, to receive
-                    a free product from Grunt Style's Shopify store. This application connects to the store's API, and a successful form validation would create
-                    an order right there, without the customer having to see a cart or go through a checkout process. The application also comes with an admin
-                    dashboard to import the email addresses/codes, and to check conversion analytics.
+                    a free product from Grunt Style's Shopify store.
                 </li>
                 <li class="single-project"><i class="fab fa-mandalorian"> - </i>
                     Connecting to a third party company's API, in order to drastically help our customer service team. This third party company handles our
@@ -60,15 +65,10 @@
                     with any of that.
                 </li>
                 <li class="single-project"><i class="fab fa-mandalorian"> - </i>
-                    Also written in Laravel, a web application for a company Grunt Style acquired, which sponsors professional shooting matches. This application utlizes Stripe to sell
-                    spots to participate in said shooting matches. Also included is a section to apply to sponsor any upcoming matches by selecting a specific
-                    sponsorship level, a gallery with a carousel which utlizes the javascript slick library, and a custom dashboard to check sponsor applications,
-                    email sign-ups, etc.
+                    Also written in Laravel, a web application for a company Grunt Style acquired, which sponsors professional shooting matches.
                 </li>
                 <li class="single-project"><i class="fab fa-mandalorian"> - </i>
-                    A custom Wordpress theme written for our sister company's website re-launch. A simple brand information page that utlizes the Google Maps API for a
-                    store locator, an Instagram plugin for users to see their posts on the site by adding a custom tag to them, and a custom 'Press' page to post
-                    articles written about the brand.
+                    A custom Wordpress theme written for our sister company's website re-launch.
                 </li>
             </ul>
             <p class="about-paragraph">

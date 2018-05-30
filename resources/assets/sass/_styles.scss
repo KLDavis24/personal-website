@@ -1,6 +1,7 @@
 // HTML STYLES
 body,html {
-  margin:0;padding:0;
+  margin:0;
+  padding:0;
 }
 html {
   overflow: scroll;
@@ -58,6 +59,119 @@ ul {
 .index-container {
   margin-top: 70px;
 }
+.skill-container {
+  margin-left: 6%;
+  text-align: center;
+}
+.contact-page-container {
+  background: #fff;
+  padding-top: 5%;
+}
+.contact-form-container {
+  background: #fff;
+  padding-top: 5%;
+}
+.contact-info-container {
+  padding-left: 10%;
+  padding-top: 5%;
+  background: #fff;
+}
+.return-home-container {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.about-section-container {
+  background: #fff;
+}
+.alert-container {
+  padding-right: 6.3%;
+}
+.portfolio-container {
+  padding-top: 100px;
+  background: #fff;
+}
+.project-container {
+  margin-bottom: 5rem;
+}
+.privacy-container {
+  padding-top: 100px;
+  background: #000;
+}
+
+// PRIVACY POLICY STYLES
+.privacy-header {
+  margin-bottom: 2rem;
+}
+.privacy-body {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+}
+//.fade {
+//  position: relative;
+//  width: 100%;
+//  min-height: 40vh;
+//  top: -25px;
+//  background-image: linear-gradient(0deg, transparent, black 75%);
+//  z-index: 1;
+//}
+//.star-wars {
+//  display: flex;
+//  justify-content: center;
+//  position: relative;
+//  height: 800px;
+//  color: #feda4a;
+//  font-family: 'Pathway Gothic One', sans-serif;
+//  font-size: 500%;
+//  font-weight: 600;
+//  letter-spacing: 6px;
+//  line-height: 150%;
+//  perspective: 400px;
+//  text-align: justify;
+//}
+//.crawl {
+//  position: relative;
+//  top: 99999px;
+//  transform-origin: 50% 100%;
+//  animation: crawl 60s linear;
+//}
+//.crawl > .title {
+//  font-size: 90%;
+//  text-align: center;
+//}
+//.crawl > .title h1 {
+//  margin: 0 0 100px;
+//  text-transform: uppercase;
+//}
+//.crawl-section {
+//  margin-bottom: 3rem;
+//}
+//@keyframes crawl {
+//  0% {
+//    top: -100px;
+//    transform: rotateX(20deg)  translateZ(0);
+//  }
+//  100% {
+//    top: -6000px;
+//    transform: rotateX(25deg) translateZ(-2500px);
+//  }
+//}
+
+// MISC STYLES
+.hyphen {
+  font-size: 1.5rem;
+}
+.return-home {
+  font-family: Oswald;
+  color: #36787c;
+  transition: ease .5s;
+}
+.return-home:hover, .footer-links:hover {
+  color: #50cad2;
+}
 
 // HEADER STYLES
 .site-header {
@@ -75,10 +189,11 @@ ul {
   font-family: Oswald;
   font-size: 20px;
   -webkit-transition: font-size.5s; /* Safari */
-  transition: font-size.5s;
+  transition: ease .5s;
 }
 .navbar-items:hover {
-  font-size: 18px;
+  //font-size: 18px;
+  transform:scale(.9);
   color: #50cad2;
 }
 .navbar-code {
@@ -116,6 +231,15 @@ header.scroll {
   color: white;
   text-shadow: 0 0 5px #000;
 }
+.section2 {
+  position: relative;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
 .parallax::after {
   content: " ";
   position: absolute;
@@ -131,10 +255,16 @@ header.scroll {
   background: #36787c;
 }
 .parallax-quote {
-  margin-bottom: -14rem;
+  margin-top: 14rem;
+}
+.parallax-quote2 {
+  margin-top: 3rem;
 }
 .bg1::after {
   background-image: url('/images/frontiers-background-full.jpg');
+}
+.bg2::after {
+  background-image: url('/images/feel-the-force-background-super.jpg');
 }
 .index-banner {
   background-image: url("/images/frontiers-background-full.jpg");
@@ -151,10 +281,6 @@ header.scroll {
   font-size: 55px;
   color: #fff;
   margin-bottom: 10px;
-}
-.skill-container {
-  margin-left: 6%;
-  text-align: center;
 }
 .progress-bar {
   background-color: #2e3f4b;
@@ -210,14 +336,6 @@ header.scroll {
 }
 
 // CONTACT STYLES
-.contact-page-container {
-  background: #fff;
-  padding-top: 5%;
-}
-.contact-form-container {
-  background: #fff;
-  padding-top: 5%;
-}
 .contact-form {
   margin: 0 auto;
   width: 75%;
@@ -237,11 +355,6 @@ header.scroll {
 .input-margin {
   padding-right: 10px;
 }
-.contact-info-container {
-  padding-left: 10%;
-  padding-top: 5%;
-  background: #fff;
-}
 .contact-info-list {
   padding-left: 20%;
   text-align: left;
@@ -250,32 +363,12 @@ header.scroll {
   font-size: 10px;
   color: red;
 }
-.alert-container {
-  padding-right: 6.3%;
-}
 .alert-success {
   float: right;
   width: 40.2%;
 }
-.return-home {
-  font-family: Oswald;
-  color: #36787c;
-  transition: ease .5s;
-}
-.return-home-container {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 2%;
-}
-.return-home:hover, .footer-links:hover {
-  color: #50cad2;
-}
 
 // ABOUT STYLES
-.about-section-container {
-  padding-top: 150px;
-  background: #fff;
-}
 .about-details {
   padding: 4rem 10rem 1rem 10rem;
   text-align: justify;
@@ -285,7 +378,8 @@ header.scroll {
   margin-bottom: 1rem;
 }
 .about-picture {
-  width: 20%;
+  width: 15%;
+  padding-top: 5rem;
 }
 .about-header {
   margin-bottom: 4rem;
@@ -306,12 +400,24 @@ header.scroll {
 }
 
 // PORTFOLIO STYLES
-.portfolio-container {
-  padding-top: 100px;
-  background: #fff;
-}
 .portfolio-header {
-  margin-bottom: 0;
+  margin-bottom: 4rem;
+}
+.project-img {
+  transition: ease .5s;
+}
+.project-img:hover {
+  transform:scale(1.05);
+}
+.project-title {
+  font-family: Oswald;
+  font-size: 1rem;
+}
+.project-description {
+  padding-right: 25%;
+  padding-left: 25%;
+  text-align: justify;
+  margin-top: 1rem;
 }
 
 // FOOTER STYLES

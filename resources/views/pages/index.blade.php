@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="section parallax bg1">
-        <h1 class="parallax-quote">"Life is too short to run proprietary software."<br><strong>- Bdale Garbee</strong></h1>
+        <h1 class="parallax-quote">"Life is too short to run proprietary software."<br><strong><i class="fas fa-minus hyphen"></i> Bdale Garbee</strong></h1>
     </section>
     <section class="skills-section one-whole float-left">
 
