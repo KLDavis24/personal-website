@@ -11,21 +11,13 @@
 
     <div class="about-section-container one-whole">
 
-        {{--<div class="one-whole text-center about-header">--}}
-            {{--<h1 class="header-quote">"Hello there..."<br><span class="header-claim">- Obi-Wan Kenobi</span></h1>--}}
-        {{--</div>--}}
-
-        {{--<div class="one-whole text-center about-picture-container">--}}
-            {{--<img class="about-picture" src="/images/kldavisphoto.jpeg" />--}}
-        {{--</div>--}}
-
         <div class="one-whole about-details">
             <p class="about-paragraph">
                 My name is Kevin Davis and I am the Droid, er, Developer you are looking for! By visiting this page, it seems that you'd like to know a little
                 bit more about me. It would be rude of me to not oblige:
             </p>
             <p class="about-paragraph">
-                First things first, I am a huge Star Wars nerd - and I was before it was cool! The Shadows of the Empire novel is my favorite piece of literature,
+                First things first, I am a huge Star Wars nerd! The Shadows of the Empire novel is my favorite piece of literature,
                 and I've read through it multiple times. It takes place in between Empire and Return of the Jedi, I highly suggest it! I am also a gamer at
                 heart, and I feel that I always will be (the Dark Souls series is the greatest collection of games of all time). In addition to that, I have a massive interest in building computers piece by piece. Plug-and-play is definitely great, but
                 there is an added satisfaction when you build your own machine. My love for gaming and building computers is really what sparked my initial

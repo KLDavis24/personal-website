@@ -1,3 +1,4 @@
+
 StarWars = (function() {
 
     /*
@@ -17,9 +18,11 @@ StarWars = (function() {
         this.animation = this.el.find('.animation');
 
         // Remove animation and shows the start screen
-        this.reset();
+        //this.reset();
 
         // Start the animation on click
+        this.audio.play();
+        this.el.append(this.animation);
         this.start.bind('click', $.proxy(function() {
             this.start.hide();
             this.audio.play();
@@ -29,10 +32,10 @@ StarWars = (function() {
         }, this));
 
         // Reset the animation and shows the start screen
-        $(this.audio).bind('ended', $.proxy(function() {
-            this.audio.currentTime = 0;
-            this.reset();
-        }, this));
+        // $(this.audio).bind('ended', $.proxy(function() {
+        //     this.audio.currentTime = 0;
+        //     this.reset();
+        // }, this));
     }
 
     /*

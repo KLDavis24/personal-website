@@ -7,9 +7,28 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
+
 <title>Kevin Davis</title>
 
 <script type="text/javascript">
+    $(document).ready(function() {
+       var path = window.location.pathname;
+
+       switch(path) {
+           case '/':
+               $('#nav-home').css('text-decoration', 'underline');
+               break;
+           case '/about':
+               $('#nav-about').css('text-decoration', 'underline');
+               break;
+           case '/portfolio':
+               $('#nav-port').css('text-decoration', 'underline');
+               break;
+           case '/contact':
+               $('#nav-contact').css('text-decoration', 'underline');
+               break;
+       }
+    });
     $(window).scroll(
         {
             previousTop: 0,
