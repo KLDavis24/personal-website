@@ -13591,6 +13591,10 @@ ul {
   background: #000;
 }
 
+.mobile-menu-container {
+  color: #fff;
+}
+
 .privacy-header {
   margin-bottom: 2rem;
 }
@@ -13617,6 +13621,34 @@ ul {
 .return-home:hover,
 .footer-links:hover {
   color: #50cad2;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.mobile-menu {
+  font-family: Oswald;
+  font-size: 1.2rem;
+}
+
+.w3-container {
+  padding-top: 25px !important;
+}
+
+.w3-dropdown-content {
+  left: -80% !important;
+}
+
+.w3-bar-block .w3-bar-item {
+  font-family: Oswald !important;
+  text-align: center !important;
+}
+
+.w3-dropdown-hover:first-child,
+.w3-dropdown-click:hover {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 .site-header {
@@ -13942,6 +13974,42 @@ header.scroll {
   color: #fff;
   -webkit-transition: ease .5s;
   transition: ease .5s;
+}
+
+@media screen and (max-width: 414px) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .parallax::after {
+    bottom: -114px;
+  }
+
+  .section {
+    height: 289px;
+  }
+
+  .parallax-quote {
+    margin-top: 12rem;
+    font-size: 1.24rem;
+  }
+
+  .hyphen {
+    font-size: 1rem;
+  }
+
+  .skill-container {
+    width: 88%;
+    padding-bottom: 25px;
+  }
+
+  .skills-row {
+    margin-bottom: 0;
+  }
 }
 
 .navbar-laravel {
