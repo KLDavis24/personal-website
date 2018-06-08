@@ -420,11 +420,18 @@ header.scroll {
     bottom: -114px;
   }
   .section {
-    height: 289px;
+    height: 279px;
+  }
+  .section2 {
+    height: 279px;
   }
   .parallax-quote {
     margin-top: 12rem;
     font-size: 1.24rem;
+  }
+  .parallax-quote2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
   }
   .hyphen {
     font-size: 1rem;
@@ -435,5 +442,49 @@ header.scroll {
   }
   .skills-row {
     margin-bottom: 0;
+  }
+  .about-picture {
+    width: 30%;
+    padding-top: 6rem;
+  }
+  .about-details {
+    padding: 2rem 2rem 1rem 2rem;
+    text-align: justify;
+  }
+  .projects-list {
+    padding-left: 0;
+  }
+  .contact-page-container {
+    padding-top: 20%;
+  }
+  .contact-info-container {
+    width: 100%;
+    padding-left: 0;
+  }
+  .contact-info-list {
+    padding-left: 13%;
+    padding-right: 13%;
+    text-align: justify;
+  }
+  .contact-form-container {
+    width: 100%;
+  }
+  .project-container {
+    width: 100%;
+  }
+  .project-description {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .project-img {
+    width: 80%;
+  }
+  .intro, .logo {
+    left: 74%;
+  }
+  .titles {
+    left: 106%;
+    width: 10em !important;
+    bottom: -55px !important;
   }
 }

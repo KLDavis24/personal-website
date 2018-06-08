@@ -27,7 +27,7 @@
                 It all started one day when I was simply playing with the calculator that comes on Windows, and I wondered how to go about coding something like that.
                 After reading into some basic programming concepts, I decided to dive deeper and enroll in a Computer Science program. I had finally found my muse, coding!
                 Being able to take my ideas, turn them into code, and watch something being built right in front of me is exactly what I wanted to do, and I didn't stop. After
-                learning the syntax and simple concepts of how different programming languages along the way, I graduated from Governors State University, with my
+                learning the syntax and capabilities of different programming languages along the way, I graduated from Governors State University, with my
                 Bachelor's in Computer Science.
             </p>
             <p class="about-paragraph">
