@@ -17,14 +17,7 @@
                 bit more about me. It would be rude of me to not oblige:
             </p>
             <p class="about-paragraph">
-                First things first, I am a huge Star Wars nerd! The Shadows of the Empire novel is my favorite piece of literature,
-                and I've read through it multiple times. It takes place in between Empire and Return of the Jedi, I highly suggest it! I am also a gamer at
-                heart, and I feel that I always will be (the Dark Souls series is the greatest collection of games of all time). In addition to that, I have a massive interest in building computers piece by piece. Plug-and-play is definitely great, but
-                there is an added satisfaction when you build your own machine. My love for gaming and building computers is really what sparked my initial
-                interest in programming, and I haven't looked back!
-            </p>
-            <p class="about-paragraph">
-                It all started one day when I was simply playing with the calculator that comes on Windows, and I wondered how to go about coding something like that.
+                My development background all started one day when I was simply playing with Windows calculator, and I wondered how to go about coding something like that.
                 After reading into some basic programming concepts, I decided to dive deeper and enroll in a Computer Science program. I had finally found my muse, coding!
                 Being able to take my ideas, turn them into code, and watch something being built right in front of me is exactly what I wanted to do, and I didn't stop. After
                 learning the syntax and capabilities of different programming languages along the way, I graduated from Governors State University, with my

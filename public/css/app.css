@@ -13607,6 +13607,16 @@ ul {
   padding-bottom: 3rem;
 }
 
+.mobile-policy {
+  display: none;
+  padding-top: 100px !important;
+}
+
+.mobile-policy-body {
+  padding-top: 50px;
+  text-align: justify;
+}
+
 .hyphen {
   font-size: 1.5rem;
 }
@@ -14066,17 +14076,163 @@ header.scroll {
     width: 80%;
   }
 
-  .intro,
-  .logo {
-    left: 74%;
+  .alert-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .alert-success {
+    width: 100%;
   }
 
   .titles {
-    left: 106%;
-    width: 10em !important;
-    bottom: -55px !important;
+    width: 7em !important;
+    left: 102%;
+  }
+
+  .desktop-policy {
+    display: none;
+  }
+
+  .mobile-policy {
+    display: block;
+  }
+
+  .experience-quote {
+    font-size: 18px;
   }
 }
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+
+/* Portrait */
+
+/* Landscape */
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+}
+
+/* Landscape */
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+
+/* Portrait */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+/* Landscape */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .header-left,
+  .header-right {
+    width: 20%;
+  }
+
+  .header-middle {
+    width: 60%;
+  }
+}
+
+/* Portrait */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+/* Landscape */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+
+/* Landscape */
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .section,
+  .section2 {
+    height: 209px;
+  }
+
+  .parallax-quote {
+    margin-top: 8rem;
+  }
+
+  .parallax-quote2 {
+    font-size: 1rem;
+    margin-top: .5rem;
+  }
+}
+
+/* Landscape */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .section,
+  .section2 {
+    height: 250px;
+  }
+}
+
+/* Landscape */
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+
+/* Landscape */
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .section,
+  .section2 {
+    height: 269px;
+  }
+
+  .parallax::after {
+    bottom: -123px;
+  }
+}
+
+/* Landscape */
 
 .navbar-laravel {
   background-color: #fff;
