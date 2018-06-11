@@ -14103,6 +14103,128 @@ header.scroll {
   }
 }
 
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait */
+
+/* Landscape */
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait */
+
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .section,
+  .section2 {
+    height: 305px !important;
+  }
+
+  .skills-text {
+    font-size: 35px;
+  }
+
+  .skill-container {
+    margin-left: 2.5%;
+    width: 30%;
+  }
+
+  .experience-subtext {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .desktop-policy {
+    display: none;
+  }
+
+  .mobile-policy {
+    display: block;
+  }
+
+  .about-picture {
+    width: 25%;
+  }
+
+  .about-details {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+
+  .parallax-quote {
+    font-size: 30px;
+  }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait */
+
+/* Landscape */
+
+/* ----------- Galaxy S8, S8+ ----------- */
+
+/* Portrait */
+
+/* Landscape */
+
+@media screen and (device-width: 740px) and (device-height: 414px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .section,
+  .section2 {
+    height: 406px !important;
+  }
+
+  .skills-text {
+    font-size: 35px;
+  }
+
+  .skill-container {
+    margin-left: 2.5%;
+    width: 30%;
+  }
+
+  .experience-subtext {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .desktop-policy {
+    display: none;
+  }
+
+  .mobile-policy {
+    display: block;
+  }
+
+  .about-picture {
+    width: 25%;
+  }
+
+  .about-details {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+
+  .parallax-quote {
+    font-size: 30px;
+  }
+}
+
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
 /* Portrait and Landscape */
@@ -14198,6 +14320,62 @@ header.scroll {
 
 /* Landscape */
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .section,
+  .section2 {
+    height: 310px !important;
+  }
+
+  .skill-container {
+    width: 90% !important;
+    margin-left: 5%;
+    padding-bottom: 10px;
+  }
+
+  .skills-text {
+    font-size: 35px !important;
+  }
+
+  .skills-row {
+    margin-bottom: 0;
+  }
+
+  .parallax-quote {
+    font-size: 25px !important;
+  }
+
+  .skill-container {
+    width: 25%;
+  }
+
+  .experience-subtext {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .about-picture {
+    width: 25%;
+    padding-top: 5rem !important;
+  }
+
+  .parallax-quote2 {
+    font-size: 31px;
+    margin-top: 1rem;
+  }
+
+  .about-details {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+}
+
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait */
@@ -14211,11 +14389,103 @@ header.scroll {
 
 /* Landscape */
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .section,
+  .section2 {
+    height: 364px;
+  }
+
+  .skills-text {
+    font-size: 25px !important;
+  }
+
+  .parallax-quote {
+    font-size: 31px;
+  }
+
+  .skill-container {
+    width: 25%;
+  }
+
+  .experience-subtext {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .about-picture {
+    width: 25%;
+    padding-top: 5rem !important;
+  }
+
+  .parallax-quote2 {
+    font-size: 31px;
+    margin-top: 1rem;
+  }
+
+  .about-details {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+}
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
 /* Portrait */
 
 /* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .section,
+  .section2 {
+    height: 404px !important;
+  }
+
+  .skills-text {
+    font-size: 30px;
+  }
+
+  .parallax-quote {
+    font-size: 31px;
+  }
+
+  .skill-container {
+    width: 25%;
+  }
+
+  .experience-subtext {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .about-picture {
+    width: 25%;
+    padding-top: 5rem !important;
+  }
+
+  .parallax-quote2 {
+    font-size: 31px;
+    margin-top: 1rem;
+  }
+
+  .about-details {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+}
 
 /* ----------- iPhone X ----------- */
 
@@ -14233,6 +14503,48 @@ header.scroll {
 }
 
 /* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .section,
+  .section2 {
+    height: 463px;
+  }
+
+  .skills-text {
+    font-size: 30px;
+  }
+
+  .skill-container {
+    width: 25%;
+  }
+
+  .experience-subtext {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .about-picture {
+    width: 25%;
+    padding-top: 0rem;
+  }
+
+  .parallax-quote2 {
+    font-size: 31px;
+    margin-top: 1rem;
+  }
+
+  .about-details {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+}
 
 .navbar-laravel {
   background-color: #fff;

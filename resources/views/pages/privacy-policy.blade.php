@@ -81,7 +81,6 @@
     </div>
 
     <script type="text/javascript">
-        var width = window.innerWidth;
 
         StarWars = (function() {
 
@@ -97,11 +96,16 @@
             return StarWars;
         })();
 
-        if (width > 414) {
-            new StarWars({
-                el : '.starwars'
-            });
-        }
+        (function($) {
+
+            if ( $('.desktop-policy').is(":visible") ) {
+                new StarWars({
+                    el : '.starwars'
+                });
+            }
+
+        })(jQuery);
+
     </script>
 
 </div>

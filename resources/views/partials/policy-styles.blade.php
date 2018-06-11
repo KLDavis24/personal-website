@@ -226,6 +226,18 @@
     and (max-device-width: 568px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: landscape) {
+        footer {
+            position: inherit !important;
+        }
+        html, body {
+            overflow: visible !important;
+        }
+        .desktop-header, .desktop-policy {
+            display: none;
+        }
+        .mobile-header, .mobile-policy {
+            display: block;
+        }
     }
 
     /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -380,6 +392,30 @@
     and (-webkit-device-pixel-ratio: 4)
     and (orientation: landscape) {
 
+    }
+
+    /* ----------- Galaxy S8, S8+ ----------- */
+
+    /* Portrait */
+    @media screen
+    and (device-width: 414px)
+    and (device-height: 740px)
+    and (-webkit-device-pixel-ratio: 4)
+    and (orientation: portrait) {
+    }
+
+    /* Landscape */
+    @media screen
+    and (device-width: 740px)
+    and (device-height: 414px)
+    and (-webkit-device-pixel-ratio: 4)
+    and (orientation: landscape) {
+        footer {
+            position: inherit !important;
+        }
+        html, body {
+            overflow: visible !important;
+        }
     }
 
     /* ----------- Google Pixel ----------- */

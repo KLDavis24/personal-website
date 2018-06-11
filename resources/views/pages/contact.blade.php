@@ -9,8 +9,9 @@
             <div class="contact-info-list">
                 <p><u>My Info</u></p>
                 <p>Phone: (708) 250-8606</p>
-                <p>Email: kldavis.244@gmail.com</p>
+                <p>Email: <a href='&#109;ailto&#58;&#107;%&#54;C%64&#37;61&#118;%6&#57;&#115;&#46;&#37;3&#50;44&#64;&#103;&#109;&#97;i&#108;&#46;com'>kld&#97;&#118;&#105;s&#46;&#50;44&#64;g&#109;ail&#46;&#99;&#111;m</a></p>
                 <a class="links" target="_blank" href="https://www.linkedin.com/in/kevin-davis-6345a710a/"><p>LinkedIn Profile</p></a>
+                <a class="links" target="_blank" href="https://github.com/KLDavis24"><p>Github Page</p></a>
                 <p>Please feel free to contact me via email or phone. Alternatively, you can also fill out the form on this page to get in touch!</p>
             </div>
         </div>
