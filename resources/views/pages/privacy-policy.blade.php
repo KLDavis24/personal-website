@@ -13,12 +13,16 @@
 
             <div class="animation">
 
+                <section class="logos">
+                    <img class="text-center logo-image" src="/images/privacy-logo-thin.png"/>
+                </section>
+
                 <section class="intro">
                     A long time ago, in a galaxy far,<br> far away....
                 </section>
 
                 <section class="titles">
-                    <div contenteditable="true" spellcheck="false">
+                    <div spellcheck="false">
                         <p class="text-center">Episode X<br><span class="episode">Privacy Policy</span></p>
                         <p>
                             By entering your name, email address, and phone number

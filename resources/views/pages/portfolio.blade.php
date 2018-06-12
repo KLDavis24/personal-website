@@ -40,7 +40,7 @@
                 <p class="project-title">G3 Dynamics</p>
                 <a target="_blank"  href="http://www.g3dynamics.com/"><img class="one-half project-img" src="/images/g3-dynamics.jpg"/></a>
                 <p class="project-description">
-                    This application utlizes Stripe to sell spots to participate in said shooting matches. Also included is a
+                    This application utilizes Stripe for users to purchase a spot to participate in professional shooting matches. Also included is a
                     section to apply to sponsor any upcoming matches by selecting a specific sponsorship level, a gallery with
                     a carousel which utlizes the javascript slick library, and a custom dashboard to check sponsor applications,
                     email sign-ups, etc.
