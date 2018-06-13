@@ -23,7 +23,7 @@
 
                 <section class="titles">
                     <div spellcheck="false">
-                        <p class="text-center">Episode X<br><span class="episode">Privacy Policy</span></p>
+                        <p class="text-center">Episode X<br><span class="episode">Personal Information</span></p>
                         <p>
                             By entering your name, email address, and phone number
                             into the form on the contact page, you can feel safe

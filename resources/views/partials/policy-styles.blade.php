@@ -225,7 +225,7 @@
     }
 
     /* ---------- TABLETS (PORTRAIT) ---------- */
-    @media (min-width: 768px) and (max-width: 1024px) {
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
         html, body {
             overflow: visible !important;
         }
@@ -273,7 +273,7 @@
     }
 
     /* ---------- MOBILE PHONES (LANDSCAPE) ---------- */
-    @media (min-width: 481px) and (max-width: 846px) {
+    @media (min-width: 481px) and (max-width: 846px) and (orientation: landscape) {
         .desktop-header {
             display: none;
         }
@@ -327,12 +327,12 @@
     }
 
     /* ---------- TABLETS (LANDSCAPE) ---------- */
-    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        .desktop-header {
-            display: none;
+    @media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+        .header-left, .header-right {
+            width: 15%;
         }
-        .mobile-header {
-            display: block;
+        .header-middle {
+            width: 70%;
         }
         html, body {
             overflow: visible !important;
@@ -379,55 +379,4 @@
             }
         }
     }
-
-    /*!* ----------- iPhone X ----------- *!*/
-
-    /*!* Portrait *!*/
-    /*@media only screen*/
-    /*and (min-device-width: 375px)*/
-    /*and (max-device-width: 812px)*/
-    /*and (-webkit-min-device-pixel-ratio: 3)*/
-    /*and (orientation: portrait) {*/
-        /*html, body {*/
-            /*overflow: visible !important;*/
-        /*}*/
-        /*.intro {*/
-            /*left: 46%;*/
-            /*width: 93%;*/
-            /*font-size: 141%;*/
-        /*}*/
-        /*.logo {*/
-            /*display: none;*/
-        /*}*/
-        /*.logos {*/
-            /*display: block;*/
-            /*opacity: 0;*/
-            /*animation: logos 9s ease-out 9s;*/
-            /*width: 70%;*/
-            /*left: 17%;*/
-            /*top: 30%;*/
-        /*}*/
-        /*.logo-image {*/
-            /*width: 80% !important;*/
-        /*}*/
-        /*.titles {*/
-            /*font-size: 170% !important;*/
-            /*bottom: 40%;*/
-            /*height: 166%;*/
-        /*}*/
-
-        /*@keyframes logos {*/
-            /*0% {*/
-                /*transform: scale(2.15);*/
-                /*opacity: 1;*/
-            /*}*/
-            /*50% {*/
-                /*opacity: 1;*/
-            /*}*/
-            /*100% {*/
-                /*transform: scale(.1);*/
-                /*opacity: 0;*/
-            /*}*/
-        /*}*/
-    /*}*/
 </style>
