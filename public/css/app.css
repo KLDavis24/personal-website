@@ -13989,6 +13989,12 @@ header.scroll {
   transition: ease .5s;
 }
 
+@media screen and (max-width: 2540px) and (min-width: 1885px) {
+  .section {
+    height: 800px;
+  }
+}
+
 /* ----- iPhone 4 (portrait) ----- */
 
 @media all and (min-device-width: 320px) and (max-device-width: 359px) and (min-device-height: 480px) and (max-device-height: 567px) and (orientation: portrait) {

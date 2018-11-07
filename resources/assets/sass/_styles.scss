@@ -215,7 +215,7 @@ header.scroll {
 }
 .section2 {
   position: relative;
-  height: 700px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -417,6 +417,14 @@ header.scroll {
 .footer-links {
   color: #fff;
   transition: ease .5s;
+}
+
+// LARGE MONITOR MEDIA QUERIES
+
+@media screen and (max-width: 2540px) and (min-width: 1885px) {
+  .section, .section2 {
+    height: 800px;
+  }
 }
 
 // MOBILE MEDIA QUERIES

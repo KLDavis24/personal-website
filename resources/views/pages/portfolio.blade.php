@@ -31,21 +31,21 @@
                 <p class="project-title">Merica Bourbon</p>
                 <a target="_blank"  href="http://www.mericabourbon.com/"><img class="one-half project-img" src="/images/merica-bourbon.jpg"/></a>
                 <p class="project-description">
-                    A simple brand information page that utlizes the Google Maps API for a store locator, an Instagram plugin
+                    A simple brand information page that utilizes the Google Maps API for a store locator, an Instagram plugin
                     for users to see their posts on the site by adding a custom tag to them, and a custom 'Press' page to post
                     articles written about the brand.
                 </p>
             </div>
-            <div class="one-half float-left text-center project-container">
-                <p class="project-title">G3 Dynamics</p>
-                <a target="_blank"  href="http://www.g3dynamics.com/"><img class="one-half project-img" src="/images/g3-dynamics.jpg"/></a>
-                <p class="project-description">
-                    This application utilizes Stripe for users to purchase a spot to participate in professional shooting matches. Also included is a
-                    section to apply to sponsor any upcoming matches by selecting a specific sponsorship level, a gallery with
-                    a carousel which utlizes the javascript slick library, and a custom dashboard to check sponsor applications,
-                    email sign-ups, etc.
-                </p>
-            </div>
+            {{--<div class="one-half float-left text-center project-container">--}}
+                {{--<p class="project-title">G3 Dynamics</p>--}}
+                {{--<a target="_blank"  href="http://www.g3dynamics.com/"><img class="one-half project-img" src="/images/g3-dynamics.jpg"/></a>--}}
+                {{--<p class="project-description">--}}
+                    {{--This application utilizes Stripe for users to purchase a spot to participate in professional shooting matches. Also included is a--}}
+                    {{--section to apply to sponsor any upcoming matches by selecting a specific sponsorship level, a gallery with--}}
+                    {{--a carousel which utlizes the javascript slick library, and a custom dashboard to check sponsor applications,--}}
+                    {{--email sign-ups, etc.--}}
+                {{--</p>--}}
+            {{--</div>--}}
         </div>
 
         <div class="return-home-container one-wholet">
