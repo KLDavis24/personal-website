@@ -43,7 +43,7 @@
             </p>
             <p class="about-paragraph">
                 I am currently tackling all sorts of tasks based in our middleware application between our Magento store, and our ERP system. I'm so excited to keep learning on a
-                daily basis, and I could no have asked for a better team to be a part of at I/D! As my knowledge continues to grow, I fully expect the Interior Define team to grow
+                daily basis, and I could not have asked for a better team to be a part of at I/D! As my knowledge continues to grow, I fully expect the Interior Define team to grow
                 exponentially as well; both with team number, and revenue-based outcomes!
             </p>
             {{--<ul class="projects-list">--}}
