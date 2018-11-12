@@ -8,16 +8,16 @@
         <div class="one-whole float-left">
             <div class="one-half float-left text-center project-container">
                 <p class="project-title">Grunt Style</p>
-                <a target="_blank"  href="https://www.gruntstyle.com/"><img class="one-half project-img" src="/images/grunt-style.jpg"/></a>
+                <a target="_blank"  href="https://www.gruntstyle.com/"><img class="one-half project-img" src="/images/gs-monitor.png"/></a>
                 <p class="project-description">
                     Grunt Style's mainline, e-commerce store hosted in Shopify. Custom functionality includes: specific collection filters,
                     using AJAX calls to force hidden products into the customer's cart (specifically to offer a one-time, promo price for
-                    subscription sign-ups, a subscription product pop-up modal on the cart page, custom drop-down mega menu, and much more!
+                    subscription sign-ups), custom cart page functionality to calculate how much the customer needs to add for free shipping, quick buy product modal, and much more!
                 </p>
             </div>
             <div class="one-half float-left text-center project-container">
                 <p class="project-title">Grunt Style Promos</p>
-                <a target="_blank" href="https://promo.gruntstyle.com/"><img class="one-half project-img" src="/images/gs-promo.jpg" /></a>
+                <a target="_blank" href="https://promo.gruntstyle.com/"><img class="one-half project-img" src="/images/gs-promo-monitor.png" /></a>
                 <p class="project-description">
                     Connecting to Grunt Style's Shopify API, a successful form validation will create an order with the entered information
                     instantly, without the customer having to see a cart or go through a checkout process. The application also comes with
@@ -29,7 +29,7 @@
         <div class="one-whole float-left">
             <div class="one-half float-left text-center project-container">
                 <p class="project-title">Merica Bourbon</p>
-                <a target="_blank"  href="http://www.mericabourbon.com/"><img class="one-half project-img" src="/images/merica-bourbon.jpg"/></a>
+                <a target="_blank"  href="http://www.mericabourbon.com/"><img class="one-half project-img" src="/images/merica-bourbon-monitor.png"/></a>
                 <p class="project-description">
                     A simple brand information page that utilizes the Google Maps API for a store locator, an Instagram plugin
                     for users to see their posts on the site by adding a custom tag to them, and a custom 'Press' page to post
